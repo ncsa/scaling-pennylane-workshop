@@ -37,9 +37,8 @@ def build_ghz(dev, n):
         return qp.expval(qp.PauliZ(0) @ qp.PauliZ(n - 1))
     return circuit
 
-GHZ_SIZES = [5, 10, 15]
 
-#GHZ_SIZES = [5, 10, 15, 20, 25]
+GHZ_SIZES = [5, 10, 15, 20, 25]
 ghz_cpu, ghz_gpu = [], []
 
 print(f"{'qubits':>7}{'CPU (s)':>12}{'GPU (s)':>12}{'GPU speedup':>14}")
