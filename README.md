@@ -1,5 +1,7 @@
 # scaling-pennylane-workshop
-Python &amp; Slurm scripts for "Scaling Quantum Simulations on HPC Clusters with PennyLane" workshop
+Python &amp; Slurm scripts for "Scaling Quantum Simulations on HPC Clusters with PennyLane" workshop.
+
+Additional information (and the files in this repo) can also be found at https://pennylane.ai/workshop/ncsa-pennylane-gpu-summer-2026 (requires a (free) PennyLane account).
 
 ## How to use the repo
 - Login to NCSA Delta cluster: `ssh <username>@login.delta.ncsa.illinois.edu`
